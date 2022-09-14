@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  background-image: url(https://papers.co/wallpaper/papers.co-vn70-galaxy-s7-dark-pattern-25-wallpaper.jpg);
+  min-height: 921px;
+}
+
+/* under this is just for the navigation bar at the top */
+.header {
+  background-color: #0060A3;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border: 1px solid white;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 99.05%;
+  overflow: hidden;
+  background-color: #0060A3;
+  position: fixed;
+  top: 0;
+  border: 1px solid white;
+  border-top: none;
+  border-bottom: none;
+  font-family: sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid white;
+  font-family: sans-serif;
+}
+
+li a:hover {
+  background-color: blue;
+  color: grey;
+  display: inline-block;
+}
+
+.active {
+  color: white;
+  background-color: blue;
+}
+
+li {
+  float: left;
+  background-color: #0060A3;
+}
+
+/* under this I just added things so I didn't have to make more css files */
+p, footer {
+  color: white;
+  text-align: center;
+}
+
+details {
+  color:white;
+  text-align: center;
+  font-size: 20px; 
+}
+
+summary {
+  width: 1000px;
+  padding-top: 10px;
+  padding-left: 25%;
+}
+
+details p {
+  border-bottom: 1px solid white;
+}
+
+div p {
+  font-size: 20px;
+}
+
+table {
+  color: white;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #A9A9A910;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+td {
+  border: 1px solid white;
+  font-family: sans-serif;
+}
+
+.toprow {
+font-size: 30px;
+background-color: rgba(0, 0, 255, 0.2);
+font-family: sans-serif;
+}
+
+.content {
+font-size: 20px;
+}
+
+.grades {
+  background-color: rgba(255, 0, 0, 0.2);
+  text-align: center; 
+}
+
+.grades.green {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+/*.characteristics, {
+  color: white;
+  text-align: center;
+  background-color:black;
+  bottom:auto;
+}*/
+
+/*table {
+  border: none;
+  color: white;
+  background-color: black;
+}
