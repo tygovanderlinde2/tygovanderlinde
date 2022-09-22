@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Dashboard</title>
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="progressbar.css">
 </head>
 
 <body>
@@ -15,7 +16,8 @@
     </div>
     <main>
         <ul>
-            <a class="img" target="_blank" href="https://hz.nl/"><img src="https://hz.nl/assets/svg/hz-logo.svg" alt="HZ logo" width="50px" height="50px"></a>
+            <a class="img" target="_blank" href="https://hz.nl/"><img src="https://hz.nl/assets/svg/hz-logo.svg"
+                    alt="HZ logo" width="50px" height="50px"></a>
             <li><a href="index.html">Home</a></li>
             <li><a href="FAQ.html">FAQ</a></li>
             <li class="active" a><a href="dashboard.html">Dashboard</a></li>
@@ -168,19 +170,19 @@
         <script>
             var els = document.getElementsByClassName("grades")
             for (var i = 0; i < els.length; i++) {
-              var cell = els[i];
-              if (cell.textContent < 5.5) {
-                cell.classList.remove('green')
-              } else {
-                cell.classList.add('green');
-              }
+                var cell = els[i];
+                if (cell.textContent < 5.5) {
+                    cell.classList.remove('green')
+                } else {
+                    cell.classList.add('green');
+                }
             }
-          </script>
-    </table>
+        </script>
+    </table> <br> <br>
+    <div class="container">
+        <div class="skills points"></div>
+    </div>
+    <div style="text-align:center;">0pts</div>
 </body>
 
 </html>
-
-<!-- 
- rows: 4
--->
