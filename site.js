@@ -1,7 +1,7 @@
 // colouring the grades
-var els = document.getElementsByClassName("grades")
-for (var i = 0; i < els.length; i++) {
-  var cell = els[i];
+const grades = document.getElementsByClassName("grades")
+for (let i = 0; i < grades.length; i++) {
+  let cell = grades[i];
   if (cell.textContent < 5.5) {
     cell.classList.remove('green')
   } else {
