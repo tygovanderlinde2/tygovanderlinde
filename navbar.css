@@ -11,6 +11,7 @@ body {
   padding: 20px;
   color: white;
   border: 1px solid white;
+  position: sticky;
 
 }
 
@@ -65,7 +66,7 @@ footer {
 details {
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 summary {
@@ -80,9 +81,10 @@ details p {
 
 div p {
   font-size: 20px;
+  font-family: sans-serif;
 }
 
-#dashboardtable {
+#dashBoardTable {
   color: white;
   width: 100%;
   border-collapse: collapse;
@@ -130,4 +132,14 @@ tr:hover {
   border: none;
   color: white;
   background-color: black;
+} */
+
+div h1 {
+  text-align: center;
+  padding: none;
+  margin: none;
+}
+
+div h2 {
+  text-align: center;
 }
