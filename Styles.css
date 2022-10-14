@@ -121,18 +121,10 @@ tr:hover {
   background-color: rgba(0, 255, 0, 0.2);
 }
 
-/*.characteristics, {
-  color: white;
-  text-align: center;
-  background-color:black;
-  bottom:auto;
-}*/
-
-/*table {
-  border: none;
-  color: white;
-  background-color: black;
-} */
+#dashBoardTable {
+width: 90%;
+margin-left: 86.4px;
+}
 
 div h1 {
   text-align: center;
